@@ -2,7 +2,6 @@ html, body {
     padding: 0px;
     margin: 0px;
     background: #222;
-    font-family: 'Patrick Hand SC';
     color: #fff;
     height: 100%;
 }
@@ -197,4 +196,8 @@ cs-app cs-tile-container:nth-of-type(12) {
     left: calc(2 * 33.334% + 1 * 16.667%);
     top: calc(3 * 85px);
     width: 33.334%;
+}
+
+cs-tile-container{
+    font-family: 'Patrick Hand SC';
 }
